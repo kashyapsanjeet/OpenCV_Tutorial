@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+
+#find the Haarcascade file in your computer and relace the destination with hat file
 face_classifier = cv2.CascadeClassifier('C:/Aaconda3/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
 
 
